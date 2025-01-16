@@ -110,10 +110,6 @@ INSERT INTO orders VALUES (20337,'DEBIT',3,4,8838,'Kolhapur','2018-10-23','South
 /*Get the number of orders by the Type of Transaction. Please exclude orders shipped from Sangli and Srinagar. 
 Also, exclude the SUSPECTED_FRAUD cases based on the Order Status. Sort the result in the descending order based on the number of orders.*/
 
-select * from orders;
-select * from customer_info where Id = 9106;
-
-
 select count(Order_Id) as ord_num , Type
 from orders
 where Order_City not in ('Sangli', 'Srinagar') and Order_Status != 'SUSPECTED_FRAUD'
