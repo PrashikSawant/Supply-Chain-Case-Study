@@ -44,7 +44,7 @@ Q4. Create a new field as shipment compliance based on Real_Shipping_Days and Sc
 - Within schedule - If shipped within the scheduled number of days 
 - On time - If shipped exactly as per schedule
 - Upto 2 days of delay - If shipped beyond schedule but delay upto 2 days
-- Beyond 2 days of delay - If shipped beyond schedule with delay beyond 2 days
+- Beyond 2 days of delay - If shipped beyond schedule with delay beyond 2 days<br>
 Which shipping mode was observed to have the greatest number of delayed orders?
 ```sql
 with new_table as (
