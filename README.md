@@ -12,6 +12,10 @@ where Order_City not in ('Sangli', 'Srinagar') and Order_Status != 'SUSPECTED_FR
 group by Type
 order by ord_num desc;
 ```
+![WhatsApp Image 2025-01-17 at 21 54 44_23b8ed10](https://github.com/user-attachments/assets/acaa33a8-32c4-4017-b0e3-480da731e221)
+
+
+
 Q2. Get the list of the Top 3 customers based on the completed orders along with the following details:
 Customer Id, Customer First Name, Customer City, Customer State, Number of completed orders, Total Sales
 ```sql
