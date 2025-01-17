@@ -29,6 +29,8 @@ where order_status = 'Complete'
 group by Id, First_Name, City, State
 order by ord_num desc limit 3;
 ```
+![WhatsApp Image 2025-01-17 at 21 55 58_d975855f](https://github.com/user-attachments/assets/3feeba34-1cc3-449d-a280-07ded07c969c)
+
 Q3. Get the order count by the Shipping Mode and the Department Name. Consider departments with at least 40 closed/completed orders.
 ```sql
 select count(distinct Order_id) as ord_count, Shipping_Mode, Name
@@ -43,6 +45,8 @@ where order_status in ('Closed', 'Complete')
 group by Shipping_Mode, Name
 having ord_count > 40;
 ```
+![WhatsApp Image 2025-01-17 at 21 56 49_733a7f9f](https://github.com/user-attachments/assets/9de87765-c6d2-4e36-88f3-7fd2cb9b1ae1)
+
 Q4. Create a new field as shipment compliance based on Real_Shipping_Days and Scheduled_Shipping_Days. It should have the following values:
 - Cancelled shipment - If the Order Status is SUSPECTED_FRAUD or CANCELED
 - Within schedule - If shipped within the scheduled number of days 
@@ -67,6 +71,9 @@ where shipment_compliance = 'Upto 2 days of delay' or 'Beyond 2 days of delay'
 group by Shipping_Mode
 order by ord_count desc;
 ```
+![WhatsApp Image 2025-01-17 at 21 57 09_c9efbec7](https://github.com/user-attachments/assets/10d1936c-c28b-42f7-8cb7-71518e74a163)
+
+
 Q5. An order is cancelled when the status of the order is either cancelled or SUSPECTED_FRAUD. Obtain the list of states by the order cancellation % and sort them in the descending order of the cancellation % 
 Definition: Cancellation % = Cancelled order / Total Orders.
 ```sql
@@ -85,3 +92,7 @@ GROUP BY order_state) T
 USING (order_state)
 ORDER BY 'Cancellation percentage' DESC;
 ```
+![WhatsApp Image 2025-01-17 at 21 58 13_9ecd50cc](https://github.com/user-attachments/assets/c112e514-2f05-4fb2-9d7f-905b4f390880)
+![WhatsApp Image 2025-01-17 at 21 58 17_0a1ee2b2](https://github.com/user-attachments/assets/e5fa94fd-49c3-474f-b4fa-7c209733c823)
+
+
