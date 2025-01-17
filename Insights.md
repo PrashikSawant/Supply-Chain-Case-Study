@@ -11,10 +11,9 @@ This Github repo showcases my SQL case studies, demonstrating proficiency in sol
  delayed orders.
 - Manipur, Haryana, Punjab are the state which has highest % of Order cancellation.
 
-
-to see the insights in presentation format 
+To see the insights in presentation format 
 [PPT](https://www.canva.com/design/DAGUGf1pURE/VX9f5Dj_ILOyaLYV6CmgSg/view?utm_content=DAGUGf1pURE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc93ebfcfde)
 
 And also the pdf of the insights 
-[Black White and Teal Minimal Abstract Patterns Finance Report Finance Presentation.pdf](https://github.com/user-attachments/files/18457476/Black.White.and.Teal.Minimal.Abstract.Patterns.Finance.Report.Finance.Presentation.pdf)
+[SupplyChain.pdf](https://github.com/user-attachments/files/18457476/Black.White.and.Teal.Minimal.Abstract.Patterns.Finance.Report.Finance.Presentation.pdf)
 
