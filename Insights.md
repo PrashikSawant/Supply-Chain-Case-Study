@@ -11,3 +11,4 @@ This Github repo showcases my SQL case studies, demonstrating proficiency in sol
  delayed orders.
 - Manipur, Haryana, Punjab are the state which has highest % of Order cancellation.
 
+Here's the pdf of the insights 
