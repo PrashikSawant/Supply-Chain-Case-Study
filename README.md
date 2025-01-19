@@ -74,7 +74,7 @@ order by ord_count desc;
 ![WhatsApp Image 2025-01-17 at 21 57 09_c9efbec7](https://github.com/user-attachments/assets/10d1936c-c28b-42f7-8cb7-71518e74a163)
 
 
-Q5. An order is cancelled when the status of the order is either cancelled or SUSPECTED_FRAUD. Obtain the list of states by the order cancellation % and sort them in the descending order of the cancellation % 
+Q5. An order is cancelled when the status of the order is either cancelled or SUSPECTED_FRAUD. Obtain the list of states by the order cancellation % and sort them in the descending order of the cancellation %.<br> 
 Definition: Cancellation % = Cancelled order / Total Orders.
 ```sql
 WITH cte AS(
