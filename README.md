@@ -1,5 +1,6 @@
 # Supply Chain Case Study
 - Analyzing the data set that was provided and to get solutions for the problem statements.
+[Here's the data set that was provided](https://github.com/PrashikSawant/abc/blob/main/supply_db.sql)
 
 ## Problem Statements and their solutions
 
