@@ -14,6 +14,3 @@ This Github repo showcases my SQL case studies, demonstrating proficiency in sol
 To see the insights in presentation format 
 [PPT](https://www.canva.com/design/DAGUGf1pURE/VX9f5Dj_ILOyaLYV6CmgSg/view?utm_content=DAGUGf1pURE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc93ebfcfde)
 
-And also the pdf of the insights 
-[SupplyChain.pdf](https://github.com/user-attachments/files/18457476/Black.White.and.Teal.Minimal.Abstract.Patterns.Finance.Report.Finance.Presentation.pdf)
-
