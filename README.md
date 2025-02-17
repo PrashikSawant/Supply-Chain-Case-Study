@@ -1,6 +1,6 @@
 # Supply Chain Case Study
 - Analyzing the data set that was provided and to get solutions for the problem statements.
-Here's the query to create [schema and tables 🔗](https://github.com/PrashikSawant/abc/blob/main/supply_db.sql)
+Here's the query to create [schema and tables 🔗](https://github.com/PrashikSawant/Supply-Chain-Case-Study/blob/main/supply_db.sql)
 
 ## Problem Statements and their solutions
 
